@@ -19,6 +19,5 @@ Feature: Is it Friday yet?
 
     Examples:
       | day            | answer |
-      | Friday         | TGIF   |
-
+      | Pazartesi      | Nope   |
 
