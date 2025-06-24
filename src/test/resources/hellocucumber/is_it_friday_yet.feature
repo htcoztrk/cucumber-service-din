@@ -11,12 +11,12 @@ Feature: Is it Friday yet?
     * Selam ver
     * hatali ama tekrarda basarili
 
-  @selamTag'deneme2
+  @selamTagdeneme2
   Scenario: Selamlar
     * Selam ver
     * Selam al
 
-  @tekHataliTekrarBasarili'deneme
+  @tekHataliTekrarBasarilideneme
   Scenario: TekHataliTekrarBasarili
     * Selam ver
     * hatali ama tekrarda basarili
