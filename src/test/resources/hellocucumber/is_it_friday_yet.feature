@@ -11,7 +11,17 @@ Feature: Is it Friday yet?
     * Selam ver
     * hatali ama tekrarda basarili
 
-  @TodayNotFriday
+  @selamTag'li
+  Scenario: Selamlar'li
+    * Selam ver
+    * Selam al
+
+  @tekHataliTekrarBasarili'li
+  Scenario: TekHataliTekrarBasarili'li
+    * Selam ver
+    * hatali ama tekrarda basarili
+
+  @TodayNotFridayZ
   Scenario Outline: Today is or is not Friday
     Given today is "<day>"
     When I ask whether it's Friday yet
